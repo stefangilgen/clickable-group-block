@@ -1,0 +1,45 @@
+/* Hover-Effekte für klickbare Gruppen */
+.wp-block-group.is-style-hover-group {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+/* Basis-Styling für den Link-Wrapper */
+.cgb-hover-group {
+    position: relative;
+    z-index: 1;
+}
+
+/* Hover-Effekte */
+.wp-block-group.is-style-hover-group:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Abdunkelungs-Effekt beim Hover */
+.wp-block-group.is-style-hover-group::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s ease;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.wp-block-group.is-style-hover-group:hover::after {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+/* Erhalt der Interaktivität für innere Links */
+.wp-block-group.is-style-hover-group a:not(.cgb-hover-group) {
+    position: relative;
+    z-index: 2;
+}
+
+/* Fallback für Browser ohne :has() Support */
+@supports not (selector(:has(*))) {
+    .wp-block-group.is-style-hover-group {
+        transition: none;
+    }
+} 

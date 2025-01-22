@@ -1,0 +1,23 @@
+# Copyright (C) 2024 Blitz & Donner Medienzauber und Kommunikationsberatung AG
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Clickable Group Block 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/stefangilgen/clickable-group-block/issues\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-01-01T12:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: clickable-group-block\n"
+
+#: clickable-group-block.php:35
+msgid "Hover Gruppe (Link)"
+msgstr ""
+
+#: clickable-group-block.php:89
+msgid "Dieses Plugin benötigt WordPress 5.9 oder höher!"
+msgstr "" 

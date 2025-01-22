@@ -1,0 +1,76 @@
+<<<<<<< HEAD
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# WordPress specific
+*.log
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/mu-plugins/
+wp-content/wp-cache-config.php
+
+# Compiled translation files
+*.mo 
+=======
+# Wordpress - ignore core, configuration, examples, uploads and logs.
+# https://github.com/github/gitignore/blob/main/WordPress.gitignore
+
+# Core
+#
+# Note: if you want to stage/commit WP core files
+# you can delete this whole section/until Configuration.
+/wp-admin/
+/wp-content/index.php
+/wp-content/languages
+/wp-content/plugins/index.php
+/wp-content/themes/index.php
+/wp-includes/
+/index.php
+/license.txt
+/readme.html
+/wp-*.php
+/xmlrpc.php
+
+# Configuration
+wp-config.php
+
+# Example themes
+/wp-content/themes/twenty*/
+
+# Example plugin
+/wp-content/plugins/hello.php
+
+# Uploads
+/wp-content/uploads/
+
+# Log files
+*.log
+
+# htaccess
+/.htaccess
+
+# All plugins
+#
+# Note: If you wish to whitelist plugins,
+# uncomment the next line
+#/wp-content/plugins
+
+# All themes
+#
+# Note: If you wish to whitelist themes,
+# uncomment the next line
+#/wp-content/themes
+>>>>>>> 08bcc4a16957af96563b2d78ac9655b405f1f411
