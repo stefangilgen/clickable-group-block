@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Clickable Group Block
 
 Ein WordPress-Plugin, das Gruppen-Blöcke klickbar macht und mit Hover-Effekten versieht.
@@ -55,7 +54,3 @@ Entwickelt von [Blitz & Donner Medienzauber und Kommunikationsberatung AG](https
 - Initiale Version
 - Grundfunktionalität für klickbare Gruppen
 - Hover-Effekte mit Abdunkeln und Schatten 
-=======
-# clickable-group-block
-WordPress Plugin für klickbare Gruppen-Blöcke mit Hover-Effekten
->>>>>>> 08bcc4a16957af96563b2d78ac9655b405f1f411
